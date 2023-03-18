@@ -13,6 +13,9 @@
         <module>configclient</module>
         <module>configserver</module>
         <module>eurekaclient</module>
+        <module>resttemplate</module>
+        <module>zuul</module>
+        <module>comsumerdzb</module>
     </modules>
 
     <parent>
@@ -49,6 +52,12 @@
             <groupId>javax.activation</groupId>
             <artifactId>activation</artifactId>
             <version>1.1.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.26</version>
         </dependency>
     </dependencies>
 
