@@ -16,6 +16,7 @@
         <module>resttemplate</module>
         <module>zuul</module>
         <module>comsumerdzb</module>
+        <module>ribbon</module>
     </modules>
 
     <parent>

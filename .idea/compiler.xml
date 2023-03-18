@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eurekaclient" />
+        <module name="ribbon" />
         <module name="resttemplate" />
         <module name="zuul" />
         <module name="comsumerdzb" />
@@ -30,6 +31,7 @@
       <module name="eurekaclient" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
       <module name="resttemplate" options="-parameters" />
+      <module name="ribbon" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
   </component>

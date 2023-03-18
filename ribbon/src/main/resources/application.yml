@@ -1,13 +1,11 @@
 server:
-  port: 8010
+  port: 8040
 spring:
   application:
-    name: provider
+    name: ribbon
 eureka:
   client:
     service-url:
-      # 当前注册中心的访问地址
       defaultZone: http://localhost:8761/eureka/
   instance:
-    # 是否将当前服务的ip注册到eureka server中
     prefer-ip-address: true
