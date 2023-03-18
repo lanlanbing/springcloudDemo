@@ -17,6 +17,7 @@
         <module>zuul</module>
         <module>comsumerdzb</module>
         <module>ribbon</module>
+        <module>feign</module>
     </modules>
 
     <parent>

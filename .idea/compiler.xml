@@ -10,6 +10,7 @@
         <module name="eurekaclient" />
         <module name="ribbon" />
         <module name="resttemplate" />
+        <module name="feign" />
         <module name="zuul" />
         <module name="comsumerdzb" />
         <module name="configserver" />
@@ -30,6 +31,7 @@
       <module name="consumer" options="-parameters" />
       <module name="eurekaclient" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
+      <module name="feign" options="-parameters" />
       <module name="resttemplate" options="-parameters" />
       <module name="ribbon" options="-parameters" />
       <module name="zuul" options="-parameters" />
