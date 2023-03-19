@@ -1,0 +1,21 @@
+server:
+  port: 8762
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          # 远程仓库访问地址
+          uri: https://github.com/lanlanbing/springcloudDemo.git
+          # 指定访问配置文件的文件名
+          search-paths: config
+          username: lanlanbing
+          password: dzb10047713..
+      # 分支名
+      label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/

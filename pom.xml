@@ -19,6 +19,8 @@
         <module>ribbon</module>
         <module>feign</module>
         <module>hystrix</module>
+        <module>configservergit</module>
+        <module>configclientgit</module>
     </modules>
 
     <parent>
