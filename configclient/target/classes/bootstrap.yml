@@ -1,0 +1,12 @@
+spring:
+  application:
+    # 通过 name的值 configclient 与 profiles.active 的值 dev 拼接成一个文件名 configclient-dev；在本地配置的路径下查找该文件名的文件
+    name: configclient
+  profiles:
+    active: dev
+  cloud:
+    config:
+      # 本地configServer 的访问路径
+      uri: http://localhost:8762/
+      # 设置客户端优先判断 config server 获取是否正常
+      fail-fast: true
