@@ -21,6 +21,8 @@
         <module>hystrix</module>
         <module>configservergit</module>
         <module>configclientgit</module>
+        <module>zipkinclient</module>
+        <module>zipkinserver</module>
     </modules>
 
     <parent>

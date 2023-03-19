@@ -7,23 +7,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="configclient" />
-        <module name="zuul" />
-        <module name="configclientgit" />
-        <module name="resttemplate" />
-        <module name="feign" />
-        <module name="hystrix" />
         <module name="ribbon" />
-        <module name="comsumerdzb" />
-        <module name="configserver" />
         <module name="configservergit" />
+        <module name="feign" />
+        <module name="eurekaclient" />
+        <module name="configclientgit" />
+        <module name="zuul" />
+        <module name="zipkinserver" />
+        <module name="hystrix" />
+        <module name="configclient" />
+        <module name="resttemplate" />
+        <module name="zipkinclient" />
+        <module name="comsumerdzb" />
         <module name="eurekaserver" />
         <module name="consumer" />
-        <module name="eurekaclient" />
+        <module name="configserver" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="consumer" target="1.8" />
+      <module name="zipkin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -40,6 +43,9 @@
       <module name="hystrix" options="-parameters" />
       <module name="resttemplate" options="-parameters" />
       <module name="ribbon" options="-parameters" />
+      <module name="zipkin" options="-parameters" />
+      <module name="zipkinclient" options="-parameters" />
+      <module name="zipkinserver" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
   </component>
